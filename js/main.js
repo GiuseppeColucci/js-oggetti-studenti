@@ -8,7 +8,7 @@
 //prima parte
 var html=document.getElementById('studente-1')
 var scolare=[{
-    'nome':'marco',
+    'nome':'Marco',
     'congmome':'Martinez',
     'eta': 34,
     
@@ -17,7 +17,7 @@ var scolare=[{
 for(var key =0; key< scolare.length; key++)  {
     var studente=scolare[key]
     // console.log(studente.congmome)
-    html.innerHTML=studente.nome + studente.congmome + studente.eta;
+    html.innerHTML=studente.nome +' '+ studente.congmome +' '+ studente.eta;
     console.log(studente);
  
 };
@@ -26,8 +26,8 @@ for(var key =0; key< scolare.length; key++)  {
  //seconda parte
  
  var classeStudenti=[
-     {'nome':'paolo','cognome':'papero','età':45},
-     {'nome':'pippa','cognome':'middelton','età':65},
+     {'nome':'Paolo','cognome':'Papero','età':45},
+     {'nome':'Pippa','cognome':'Piddelton','età':65},
 
  ];
 
@@ -36,7 +36,7 @@ for(var key =0; key< scolare.length; key++)  {
  for(var k =0; k< classeStudenti.length; k++)  {
     var alunno=classeStudenti[k]
     // console.log(studente.congmome)
-    alert(alunno.nome + alunno.cognome );
+    alert(alunno.nome +' '+ alunno.cognome );
     
  
 };
